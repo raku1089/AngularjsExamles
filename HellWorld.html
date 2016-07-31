@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Step by step Angularjs</title>
+<script type="text/javascript"
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+	</head>
+	<body ng-app="">
+	<!-- one page Angular -->
+	<input type="text" placeholder="Enter Somthing"   ng-model="wor">
+	<h1> Hello !   {{wor}}</h1>
+	First Name :<input type="text" placeholder="Enter your name" ng-model="fname">
+	Last Name :<input type="text" placeholder="Enter your name" ng-model="lname">
+	<h1> Hello ! I am {{fname +" "+lname}}</h1>
+	<input id="n1" type="number" placeholder="Enter First Number" ng-model="Num1"> + 
+	<input id="n2" type="number" placeholder="Enter Second Number" ng-model="Num2"> 
+	<h1>ADD : ={{Num1}}</h1>
+		<h1>SUBTRACT : ={{Num1-Num2}}</h1>
+			<h1>MULTIPLY : ={{Num1*Num2}}</h1>
+				<h1>DIVIDE : ={{Num1/Num2}}</h1>
+	</body>
+	</html>
